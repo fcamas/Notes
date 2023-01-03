@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11E5BE7C2AE9ABA00045A94C /* DayShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE7B2AE9ABA00045A94C /* DayShape.swift */; };
+		11E5BE7E2AE9ACB20045A94C /* Onboarding Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE7D2AE9ACB20045A94C /* Onboarding Shape.swift */; };
 		1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E4284ECFA200F34C26 /* AppDelegate.swift */; };
 		1CA597E7284ECFA200F34C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */; };
 		1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E8284ECFA200F34C26 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		11E5BE7B2AE9ABA00045A94C /* DayShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayShape.swift; sourceTree = "<group>"; };
+		11E5BE7D2AE9ACB20045A94C /* Onboarding Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding Shape.swift"; sourceTree = "<group>"; };
 		1CA597E1284ECFA200F34C26 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA597E4284ECFA200F34C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				11E5BE7B2AE9ABA00045A94C /* DayShape.swift */,
+				11E5BE7D2AE9ACB20045A94C /* Onboarding Shape.swift */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E5BE7E2AE9ACB20045A94C /* Onboarding Shape.swift in Sources */,
 				1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */,
 				1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */,
 				11E5BE7C2AE9ABA00045A94C /* DayShape.swift in Sources */,
