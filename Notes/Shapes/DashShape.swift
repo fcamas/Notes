@@ -26,7 +26,20 @@ struct DownwardTriangleWithBrokenLine1: Shape {
         path.addLine(to: CGPoint(x: rect.midX + triangleWidth/2, y: rect.minY))
         path.addLine(to: CGPoint(x: rect.midX - triangleWidth/2, y: rect.minY))
         path.addLine(to: CGPoint(x: rect.midX, y: rect.minY + triangleHeight))
+        // Draw the vertical broken lines
+        let lineStartY = rect.minY + triangleHeight
+        let lineEndY = rect.minY + rect.height - triangleHeight/2
+        for y in stride(from: lineStartY + spacing, to: lineEndY - triangleHeight, by: spacing * 2) {
+            path.move(to: CGPoint(x: rect.midX, y: y))
+            path.addLine(to: CGPoint(x: rect.midX, y: y + spacing))
+        }
         
+        // Draw the upward pointing triangle at the bottom, connected to the tip of the line
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.minY + rect.height - triangleHeight))
+        path.addLine(to: CGPoint(x: rect.midX - triangleWidth/2, y: rect.minY + rect.height))
+        path.addLine(to: CGPoint(x: rect.midX + triangleWidth/2, y: rect.minY + rect.height))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.minY + rect.height - triangleHeight))
+       
         return path
     }
     
