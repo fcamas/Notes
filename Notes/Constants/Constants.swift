@@ -30,3 +30,11 @@ struct MainViewSizes{
 
     var cardFrame:CGFloat = 300
 }
+
+struct ExpandedViewSizes{
+    
+    var minY:CGFloat = 300
+    var shadowRadius:CGFloat = 10
+    var cornerRadius:CGFloat = 10
+    var headerFrame:CGFloat = 250
+}
