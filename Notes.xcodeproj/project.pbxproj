@@ -16,6 +16,7 @@
 		11E5BE8A2AE9B94F0045A94C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE892AE9B94F0045A94C /* Card.swift */; };
 		11E5BE8C2AE9BC110045A94C /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE8B2AE9BC110045A94C /* DessertModel.swift */; };
 		11E5BE8E2AE9C0E90045A94C /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE8D2AE9C0E90045A94C /* DayModel.swift */; };
+		11E5BE912AE9C1A00045A94C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE902AE9C1A00045A94C /* TabBar.swift */; };
 		1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E4284ECFA200F34C26 /* AppDelegate.swift */; };
 		1CA597E7284ECFA200F34C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */; };
 		1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E8284ECFA200F34C26 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		11E5BE892AE9B94F0045A94C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		11E5BE8B2AE9BC110045A94C /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
 		11E5BE8D2AE9C0E90045A94C /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		11E5BE902AE9C1A00045A94C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		1CA597E1284ECFA200F34C26 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA597E4284ECFA200F34C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		11E5BE8F2AE9C17C0045A94C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11E5BE902AE9C1A00045A94C /* TabBar.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1CA597D8284ECFA200F34C26 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 				11E5BE862AE9B4D80045A94C /* Constants */,
 				11E5BE832AE9B0B20045A94C /* Extension */,
 				11E5BE7A2AE9AB890045A94C /* Shapes */,
+				11E5BE8F2AE9C17C0045A94C /* ViewModel */,
 				1CA59816284ED04E00F34C26 /* Model */,
 				1CA597E4284ECFA200F34C26 /* AppDelegate.swift */,
 				1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */,
@@ -332,6 +343,7 @@
 				1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */,
 				1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */,
 				11E5BE7C2AE9ABA00045A94C /* DayShape.swift in Sources */,
+				11E5BE912AE9C1A00045A94C /* TabBar.swift in Sources */,
 				11E5BE8A2AE9B94F0045A94C /* Card.swift in Sources */,
 				1CA597E7284ECFA200F34C26 /* SceneDelegate.swift in Sources */,
 				1CA59818284EE8B000F34C26 /* NoteViewController.swift in Sources */,
