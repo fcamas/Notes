@@ -43,4 +43,22 @@ class DessertViewModel: ObservableObject {
         }
     }
     
+    // MARK: Fetch Dessert Detail
+    func fetchDessertDetail(id:String) {
+        detailcard = []
+        guard let url = URL(string: "https://themealdb.com/api/json/v1/1/lookup.php?i=\(id)") else {return}
+        print(url)
+        URLSession.shared.fetchData(for: url) { (result: Result<DessertDetail, Error>) in
+            switch result {
+            case .success(let results):
+                DispatchQueue.main.async {
+                    
+                }
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+
+    
 }
