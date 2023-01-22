@@ -19,6 +19,31 @@ class DessertViewModel: ObservableObject {
         fetchDessert()
     }
     
+    /// search data on the  saved container of data
+    /// - Parameters:
+    /// - cardText: this contains user intent text  to be sarched
+    ///
+    func searchCards(cardText:String) {
+        if cardText.isEmpty {
+            cards = mainCardContainer.sorted { $0.name < $1.name }
+            return
+        }
+        
+        let searchTerms = cardText.lowercased().split(separator: " ")
+        cards = mainCardContainer.filter { card in
+            for field in searchFields {
+                let value = card[keyPath: field].lowercased()
+                for term in searchTerms {
+                    if !value.contains(term) {
+                        return false
+                    }
+                }
+            }
+            return true
+        }
+        .sorted { $0.name < $1.name }
+    }
+    
     // MARK: - Fetch Dessert Meal
     func fetchDessert() {
         mainCardContainer = []
