@@ -19,6 +19,21 @@ struct LoginView: View {
                 .offset(x:0, y: 8)
             
             TextField("", text: $text).font(.system(size: 30))
+            
+            Rectangle()
+                .frame(height: 1)
+                .foregroundColor(.gray)
+                .padding(.bottom, 16)
+    
+            Text("Enter password")
+                .offset(x:0, y: 8)
+            
+            TextField("", text: $text).font(.system(size: 30))
+            
+            Rectangle()
+                .frame(height: 1)
+                .foregroundColor(.gray)
+                .padding(.bottom, 16)
   
         }.padding(.all, 32)
     }
