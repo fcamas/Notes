@@ -24,7 +24,7 @@ struct LoginView: View {
                 .frame(height: 1)
                 .foregroundColor(.gray)
                 .padding(.bottom, 16)
-    
+            
             Text("Enter password")
                 .offset(x:0, y: 8)
             
@@ -34,8 +34,19 @@ struct LoginView: View {
                 .frame(height: 1)
                 .foregroundColor(.gray)
                 .padding(.bottom, 16)
-  
+            
         }.padding(.all, 32)
+        
+        VStack{
+            Text("Login")
+                .foregroundColor(Color.black.opacity(0.7))
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(.clear)
+                .cornerRadius(10)
+                .font(.title)
+            
+        }
     }
 }
 
