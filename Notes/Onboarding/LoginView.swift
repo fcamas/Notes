@@ -45,6 +45,18 @@ struct LoginView: View {
                 .background(.clear)
                 .cornerRadius(10)
                 .font(.title)
+            HStack{
+                Text("Sign up")
+                Rectangle()
+                    .frame(width: 1, height: 20)
+                    .foregroundColor(.gray)
+                
+                Text("Privay & Terms")
+                Rectangle()
+                    .frame(width: 1, height: 20)
+                    .foregroundColor(.gray)
+                Text("Contact us")
+            }
             
         }
     }
