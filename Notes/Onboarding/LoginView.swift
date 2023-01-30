@@ -58,7 +58,8 @@ struct LoginView: View {
                 Text("Contact us")
             }
             
-        }
+        }.padding(.bottom, 100)
+        Spacer()
     }
 }
 
