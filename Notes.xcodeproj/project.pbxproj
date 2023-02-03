@@ -19,6 +19,7 @@
 		11E5BE912AE9C1A00045A94C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE902AE9C1A00045A94C /* TabBar.swift */; };
 		11E5BE932AE9C4860045A94C /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE922AE9C4860045A94C /* DessertViewModel.swift */; };
 		11E5BE9A2AE9CD1E0045A94C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE992AE9CD1E0045A94C /* LoginView.swift */; };
+		11E5BE9D2AE9D62B0045A94C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE9C2AE9D62B0045A94C /* Home.swift */; };
 		1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E4284ECFA200F34C26 /* AppDelegate.swift */; };
 		1CA597E7284ECFA200F34C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */; };
 		1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E8284ECFA200F34C26 /* ViewController.swift */; };
@@ -62,6 +63,7 @@
 		11E5BE902AE9C1A00045A94C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		11E5BE922AE9C4860045A94C /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
 		11E5BE992AE9CD1E0045A94C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		11E5BE9C2AE9D62B0045A94C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Home.swift; path = Notes/Onboarding/Home.swift; sourceTree = SOURCE_ROOT; };
 		1CA597E1284ECFA200F34C26 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA597E4284ECFA200F34C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,14 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		11E5BE9B2AE9D5E30045A94C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11E5BE9C2AE9D62B0045A94C /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		1CA597D8284ECFA200F34C26 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +181,7 @@
 		1CA597E3284ECFA200F34C26 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				11E5BE9B2AE9D5E30045A94C /* Home */,
 				11E5BE982AE9CCFB0045A94C /* Onboarding */,
 				11E5BE862AE9B4D80045A94C /* Constants */,
 				11E5BE832AE9B0B20045A94C /* Extension */,
@@ -352,6 +363,7 @@
 				11E5BE882AE9B4E40045A94C /* Constants.swift in Sources */,
 				11E5BE8E2AE9C0E90045A94C /* DayModel.swift in Sources */,
 				11E5BE802AE9AD670045A94C /* HalfRectShape.swift in Sources */,
+				11E5BE9D2AE9D62B0045A94C /* Home.swift in Sources */,
 				11E5BE8C2AE9BC110045A94C /* DessertModel.swift in Sources */,
 				11E5BE7E2AE9ACB20045A94C /* Onboarding Shape.swift in Sources */,
 				1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */,
