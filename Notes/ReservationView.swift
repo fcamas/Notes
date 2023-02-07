@@ -23,6 +23,13 @@ struct ReservationView: View {
             }
         }
     }
+    
+    func generateQRCode(from string: String) -> UIImage {
+        filter.message = Data(string.utf8)
+        return UIImage(systemName: "xmark.circle") ?? UIImage()
+    }
+        
+      
 }
 
 struct ReservationView_Previews: PreviewProvider {
