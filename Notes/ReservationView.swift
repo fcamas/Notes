@@ -18,7 +18,11 @@ struct ReservationView: View {
     var body: some View {
         ScrollView{
             VStack{
-                
+                Image(uiImage: generateQRCode(from: "\(name)\n\(email)"))
+                    .resizable()
+                    .interpolation(.none)
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
                 
             }
         }
