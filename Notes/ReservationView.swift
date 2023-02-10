@@ -23,7 +23,16 @@ struct ReservationView: View {
                     .interpolation(.none)
                     .scaledToFit()
                     .frame(width: 200, height: 200)
-                
+                Spacer()
+                Button(action: {
+                    // Action to perform when button is tapped
+                }) {
+                    Text("Confirm")
+                        .foregroundColor(.white)
+                }
+                .frame(width: UIScreen.main.bounds.width-32, height: 80)
+                .background(Color.blue)
+                .padding(.all)
             }
         }
     }
