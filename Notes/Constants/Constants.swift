@@ -38,3 +38,13 @@ struct ExpandedViewSizes{
     var cornerRadius:CGFloat = 10
     var headerFrame:CGFloat = 250
 }
+
+struct K {
+    
+    // MARK: - Colors
+    static let primaryBlack = "#000000"
+    static let primaryWhite = "#FFFFFF"
+    static let primaryColor = "#1D9696"
+    static let secondayColor = "#01A0A0"
+    static let tertiaryColor = "#369C9C8C"
+}
