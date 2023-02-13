@@ -47,4 +47,8 @@ struct K {
     static let primaryColor = "#1D9696"
     static let secondayColor = "#01A0A0"
     static let tertiaryColor = "#369C9C8C"
+    
+    static let dividerColor = "#A0A0A0"
+    static let buttonBorders = "#A0A0A0"
+    static let placeHolderColor = "#A0A0A0"
 }
