@@ -51,4 +51,7 @@ struct K {
     static let dividerColor = "#A0A0A0"
     static let buttonBorders = "#A0A0A0"
     static let placeHolderColor = "#A0A0A0"
+    
+    static let purpple = "#7C8BE2"
+    static let yellow = " #FCDB68"
 }
