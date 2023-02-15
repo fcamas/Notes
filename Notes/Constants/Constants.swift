@@ -54,4 +54,11 @@ struct K {
     
     static let purpple = "#7C8BE2"
     static let yellow = " #FCDB68"
+    
+    // MARK: - Asset Colors
+    static let bg_white = "bg_white_color"
+    static let btn_white = "btn_bg_white_color"
+    static let btn_black = "btn_bg_black_color"
+    static let txt_white = "txt_white_color"
+    static let txt_black = "txt_black_color"
 }
