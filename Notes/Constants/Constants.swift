@@ -61,4 +61,8 @@ struct K {
     static let btn_black = "btn_bg_black_color"
     static let txt_white = "txt_white_color"
     static let txt_black = "txt_black_color"
+    
+    // MARK: - App font name
+    static let lifeFont  = "PLay-Regular"
+    static let lifeFontBold  = "PLay-Bold"
 }
