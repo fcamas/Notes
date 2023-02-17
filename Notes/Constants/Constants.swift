@@ -65,4 +65,9 @@ struct K {
     // MARK: - App font name
     static let lifeFont  = "PLay-Regular"
     static let lifeFontBold  = "PLay-Bold"
+    
+    
+    // MARK: - App Strings
+    static let backBtn = "arrow_back_ic"
+    static let appLogo = "logo_ic"
 }
