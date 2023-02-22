@@ -27,7 +27,7 @@ struct MainViewSizes{
     var rectangleStrokeLineWidth:CGFloat = 1
     var rectangleFrame:CGFloat = 50
     var rectangleConerRadius:CGFloat = 20
-
+    
     var cardFrame:CGFloat = 300
 }
 
@@ -70,4 +70,8 @@ struct K {
     // MARK: - App Strings
     static let backBtn = "arrow_back_ic"
     static let appLogo = "logo_ic"
+    
+    static let appName = "Life"
+    static let signup = "Sign Up"
+    static let login = "Log In"
 }
