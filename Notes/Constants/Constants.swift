@@ -74,4 +74,6 @@ struct K {
     static let appName = "Life"
     static let signup = "Sign Up"
     static let login = "Log In"
+    static let warning = "warning"
+    static let arrowUp = "arrow_up_ic"
 }
