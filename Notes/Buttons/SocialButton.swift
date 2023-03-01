@@ -21,7 +21,9 @@ struct SocialSignUpButtons: View {
                         .resizable()
                         .frame(width: 30, height: 30, alignment: .center)
                         .foregroundColor(.white)
-                    
+                    Text(text)
+                        .foregroundColor(Color(K.txt_black))
+                        .font(Font.custom(K.lifeFontBold, size: 16))
                 })
         }
     }
