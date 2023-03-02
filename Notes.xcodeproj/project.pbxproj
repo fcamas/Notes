@@ -27,6 +27,7 @@
 		11E5BEAA2AEA0FD70045A94C /* BigButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEA92AEA0FD70045A94C /* BigButtonView.swift */; };
 		11E5BEB02AEA18610045A94C /* BigButtonFilled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEAF2AEA18610045A94C /* BigButtonFilled.swift */; };
 		11E5BEB22AEA19110045A94C /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEB12AEA19110045A94C /* SocialButton.swift */; };
+		11E5BEB42AEA1A440045A94C /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEB32AEA1A440045A94C /* BackButton.swift */; };
 		1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E4284ECFA200F34C26 /* AppDelegate.swift */; };
 		1CA597E7284ECFA200F34C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */; };
 		1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E8284ECFA200F34C26 /* ViewController.swift */; };
@@ -78,6 +79,7 @@
 		11E5BEA92AEA0FD70045A94C /* BigButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButtonView.swift; sourceTree = "<group>"; };
 		11E5BEAF2AEA18610045A94C /* BigButtonFilled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButtonFilled.swift; sourceTree = "<group>"; };
 		11E5BEB12AEA19110045A94C /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
+		11E5BEB32AEA1A440045A94C /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		1CA597E1284ECFA200F34C26 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA597E4284ECFA200F34C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				11E5BEA92AEA0FD70045A94C /* BigButtonView.swift */,
 				11E5BEAF2AEA18610045A94C /* BigButtonFilled.swift */,
 				11E5BEB12AEA19110045A94C /* SocialButton.swift */,
+				11E5BEB32AEA1A440045A94C /* BackButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				1CA59815284ED02D00F34C26 /* Note.swift in Sources */,
 				11E5BEA32AE9F8FB0045A94C /* AllTabsView.swift in Sources */,
 				11E5BEB02AEA18610045A94C /* BigButtonFilled.swift in Sources */,
+				11E5BEB42AEA1A440045A94C /* BackButton.swift in Sources */,
 				11E5BE852AE9B0EB0045A94C /* URLSectionExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
