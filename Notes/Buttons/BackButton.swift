@@ -16,7 +16,12 @@ struct BackBtn: View {
         Button(action: {
             buttonTap()
         }, label: {
-            
+            Image(K.backBtn)
+                .resizable()
+                .renderingMode(color != nil ? .template : .original)
+                .foregroundColor(color)
+                .scaledToFit()
+                .frame(width: 24, height: 24, alignment: .center)
         })
     }
 }
