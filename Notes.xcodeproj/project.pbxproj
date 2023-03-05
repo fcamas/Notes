@@ -28,6 +28,7 @@
 		11E5BEB02AEA18610045A94C /* BigButtonFilled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEAF2AEA18610045A94C /* BigButtonFilled.swift */; };
 		11E5BEB22AEA19110045A94C /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEB12AEA19110045A94C /* SocialButton.swift */; };
 		11E5BEB42AEA1A440045A94C /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEB32AEA1A440045A94C /* BackButton.swift */; };
+		11E5BEB72AEA1C800045A94C /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BEB62AEA1C800045A94C /* ProgressBar.swift */; };
 		1CA597E5284ECFA200F34C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E4284ECFA200F34C26 /* AppDelegate.swift */; };
 		1CA597E7284ECFA200F34C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */; };
 		1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA597E8284ECFA200F34C26 /* ViewController.swift */; };
@@ -80,6 +81,7 @@
 		11E5BEAF2AEA18610045A94C /* BigButtonFilled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButtonFilled.swift; sourceTree = "<group>"; };
 		11E5BEB12AEA19110045A94C /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
 		11E5BEB32AEA1A440045A94C /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		11E5BEB62AEA1C800045A94C /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		1CA597E1284ECFA200F34C26 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA597E4284ECFA200F34C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA597E6284ECFA200F34C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +191,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		11E5BEB52AEA1C700045A94C /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				11E5BEB62AEA1C800045A94C /* ProgressBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
 		1CA597D8284ECFA200F34C26 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +222,7 @@
 		1CA597E3284ECFA200F34C26 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				11E5BEB52AEA1C700045A94C /* ProgressBar */,
 				11E5BEA82AEA0FB50045A94C /* Buttons */,
 				11E5BE9B2AE9D5E30045A94C /* Home */,
 				11E5BE982AE9CCFB0045A94C /* Onboarding */,
@@ -413,6 +424,7 @@
 				11E5BEA52AE9FD6F0045A94C /* ReservationView.swift in Sources */,
 				1CA59818284EE8B000F34C26 /* NoteViewController.swift in Sources */,
 				1CA59815284ED02D00F34C26 /* Note.swift in Sources */,
+				11E5BEB72AEA1C800045A94C /* ProgressBar.swift in Sources */,
 				11E5BEA32AE9F8FB0045A94C /* AllTabsView.swift in Sources */,
 				11E5BEB02AEA18610045A94C /* BigButtonFilled.swift in Sources */,
 				11E5BEB42AEA1A440045A94C /* BackButton.swift in Sources */,
