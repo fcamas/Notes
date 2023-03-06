@@ -11,7 +11,13 @@ struct ProgressBar: View {
     @State var range: ClosedRange<Int>
     @State var fill: Int
     var body: some View {
-        Text("Progress Bar")
+        ZStack(alignment: .leading){
+            GeometryReader{ geo in
+                RoundedRectangle(cornerRadius: 4)
+                    .frame(height:8)
+                    .foregroundColor(.gray)
+            }
+        }
     }
 }
 
@@ -20,3 +26,4 @@ struct ProgressBar_Previews: PreviewProvider {
         ProgressBar(range: 0...5, fill: 1)
     }
 }
+
