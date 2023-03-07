@@ -16,6 +16,11 @@ struct ProgressBar: View {
                 RoundedRectangle(cornerRadius: 4)
                     .frame(height:8)
                     .foregroundColor(.gray)
+                
+                RoundedRectangle(cornerRadius: 4)
+                    .frame(width: geo.size.width*(CGFloat(fill)/CGFloat(range.upperBound)),
+                           height: 8,alignment: .leading)
+                    .foregroundColor(.blue)
             }
         }
     }
