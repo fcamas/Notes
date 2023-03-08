@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1181865A2AEAA19400ADCF53 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118186592AEAA19400ADCF53 /* SignUpViewModel.swift */; };
 		11E5BE7C2AE9ABA00045A94C /* DayShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE7B2AE9ABA00045A94C /* DayShape.swift */; };
 		11E5BE7E2AE9ACB20045A94C /* Onboarding Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE7D2AE9ACB20045A94C /* Onboarding Shape.swift */; };
 		11E5BE802AE9AD670045A94C /* HalfRectShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5BE7F2AE9AD670045A94C /* HalfRectShape.swift */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		118186592AEAA19400ADCF53 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		11E5BE7B2AE9ABA00045A94C /* DayShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayShape.swift; sourceTree = "<group>"; };
 		11E5BE7D2AE9ACB20045A94C /* Onboarding Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding Shape.swift"; sourceTree = "<group>"; };
 		11E5BE7F2AE9AD670045A94C /* HalfRectShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfRectShape.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				11E5BE902AE9C1A00045A94C /* TabBar.swift */,
 				11E5BE922AE9C4860045A94C /* DessertViewModel.swift */,
+				118186592AEAA19400ADCF53 /* SignUpViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				11E5BE802AE9AD670045A94C /* HalfRectShape.swift in Sources */,
 				11E5BEAA2AEA0FD70045A94C /* BigButtonView.swift in Sources */,
 				11E5BE9D2AE9D62B0045A94C /* Home.swift in Sources */,
+				1181865A2AEAA19400ADCF53 /* SignUpViewModel.swift in Sources */,
 				11E5BE8C2AE9BC110045A94C /* DessertModel.swift in Sources */,
 				11E5BE7E2AE9ACB20045A94C /* Onboarding Shape.swift in Sources */,
 				1CA597E9284ECFA200F34C26 /* ViewController.swift in Sources */,
