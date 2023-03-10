@@ -13,5 +13,8 @@ class SignUpViewModel: ObservableObject {
     @Published var verificationCode: String? = "+1"
     @Published var phoneNumber: String = ""
     @Published var open: Bool = false
+    @Published var nextPage: Bool = false
+    @Published var finished: Bool = false
+    @Published var visibleError: Error? = nil
     
 }
