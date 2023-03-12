@@ -5,8 +5,11 @@
 //  Created by Fredy Camas on 03/08/23.
 //
 
-import Foundation
 import SwiftUI
+
+struct CountryCode{
+    var code = "+1"
+}
 
 class SignUpViewModel: ObservableObject {
     var phoneNumberStr: String  = "222"
@@ -16,5 +19,7 @@ class SignUpViewModel: ObservableObject {
     @Published var nextPage: Bool = false
     @Published var finished: Bool = false
     @Published var visibleError: Error? = nil
+    var countryCodes: [CountryCode] = []
+    
     
 }
