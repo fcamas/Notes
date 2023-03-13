@@ -21,5 +21,8 @@ class SignUpViewModel: ObservableObject {
     @Published var visibleError: Error? = nil
     var countryCodes: [CountryCode] = []
     
+    func selectCountry(_ country: CountryCode) {
+        verificationCode = country.code
+    }
     
 }
