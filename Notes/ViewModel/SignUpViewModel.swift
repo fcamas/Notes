@@ -25,4 +25,9 @@ class SignUpViewModel: ObservableObject {
         verificationCode = country.code
     }
     
+    func deselectCountry() {
+        verificationCode = nil
+    }
+    
+    
 }
