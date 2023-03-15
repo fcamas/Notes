@@ -24,10 +24,11 @@ class SignUpViewModel: ObservableObject {
     func selectCountry(_ country: CountryCode) {
         verificationCode = country.code
     }
-    
     func deselectCountry() {
         verificationCode = nil
     }
-    
-    
+    func sendCode() {
+        var code = "+1"
+        phoneNumberStr = code + phoneNumber
+    }
 }
