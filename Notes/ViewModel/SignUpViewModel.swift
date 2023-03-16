@@ -31,4 +31,8 @@ class SignUpViewModel: ObservableObject {
         var code = "+1"
         phoneNumberStr = code + phoneNumber
     }
+    func resendCode() {
+        var code = "+1"
+        let phoneNumberStr = code + phoneNumber
+    }
 }
