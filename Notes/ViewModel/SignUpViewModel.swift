@@ -35,4 +35,14 @@ class SignUpViewModel: ObservableObject {
         var code = "+1"
         let phoneNumberStr = code + phoneNumber
     }
+    
+    func verifyCode(){
+        var success = false
+        if success{
+            print("Successfully Verified ")
+            
+        }else {
+            print("Error at verifying code ")
+        }
+    }
 }
