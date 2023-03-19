@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-struct CountryCode{
-    var code = "+1"
-}
+
 
 class SignUpViewModel: ObservableObject {
     var phoneNumberStr: String  = "222"
