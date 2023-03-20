@@ -9,4 +9,8 @@ import Foundation
 
 struct CountryCode{
     var code = "+1"
+    
+    var id: String {
+        return code
+    }
 }
