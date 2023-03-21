@@ -13,4 +13,7 @@ struct CountryCode{
     var id: String {
         return code
     }
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(code)
+    }
 }
