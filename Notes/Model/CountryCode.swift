@@ -9,6 +9,8 @@ import Foundation
 
 struct CountryCode{
     var code = "+1"
+    var name: String
+    var dial_code: String
     
     var id: String {
         return code
