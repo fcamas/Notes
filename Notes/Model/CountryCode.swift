@@ -18,4 +18,10 @@ struct CountryCode{
     func hash(into hasher: inout Hasher) {
         hasher.combine(code)
     }
+    func flag() -> String {
+        let base : UInt32 = 127397
+        var s = ""
+     
+        return String(s)
+    }
 }
