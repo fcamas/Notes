@@ -21,7 +21,9 @@ struct CountryCode{
     func flag() -> String {
         let base : UInt32 = 127397
         var s = ""
-     
+        for v in self.code.unicodeScalars {
+            s.unicodeScalars.append(UnicodeScalar(base + v.value)!)
+        }
         return String(s)
     }
 }
