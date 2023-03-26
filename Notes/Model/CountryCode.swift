@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CountryCode{
+struct CountryCode: Hashable, Codable {
     var code = "+1"
     var name: String
     var dial_code: String
@@ -25,5 +25,9 @@ struct CountryCode{
             s.unicodeScalars.append(UnicodeScalar(base + v.value)!)
         }
         return String(s)
+    }
+    var jsonData: String {
+        let jsonData = try! JSONEncoder().encode(self)
+        return jsonString
     }
 }
