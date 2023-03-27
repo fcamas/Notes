@@ -28,6 +28,8 @@ struct CountryCode: Hashable, Codable {
     }
     var jsonData: String {
         let jsonData = try! JSONEncoder().encode(self)
+        let jsonString = String(data: jsonData, encoding: .utf8)!
+        print(jsonString)
         return jsonString
     }
 }
