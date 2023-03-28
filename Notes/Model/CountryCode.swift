@@ -12,6 +12,10 @@ struct CountryCode: Hashable, Codable {
     var name: String
     var dial_code: String
     
+    static func == (lhs: CountryCode, rhs: CountryCode) -> Bool {
+        return false
+    }
+    
     var id: String {
         return code
     }
