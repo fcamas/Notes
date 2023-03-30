@@ -17,6 +17,12 @@ struct CountryCode: Hashable, Codable {
         return false
     }
     
+    init(name: String, dial_code: String, code: String) {
+        self.name = name
+        self.dial_code = dial_code
+        self.code = code
+    }
+    
     var id: String {
         return code
     }
