@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 class SignUpViewModel: ObservableObject {
     var phoneNumberStr: String  = "222"
     @Published var verificationCode: String? = "+1"
